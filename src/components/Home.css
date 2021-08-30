@@ -1,0 +1,404 @@
+
+.card{
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+    margin-bottom: 1.25rem;
+    border-radius: .1875rem;
+    padding: .8rem;
+    position: relative;
+    flex: 1;
+}
+
+.last_ten_days{
+
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.random_bars{
+    
+    display: block;
+    width: 0.7rem;
+    background-color: blue;
+    display: flex;
+}
+
+.card__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__body{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__header_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__header_head > h4{
+
+    margin-left: 0.4rem;
+
+}
+
+.sm{
+    flex: 1;
+    height: 9.375rem;
+}
+
+.sm:not(:last-child){
+    margin-right: 1rem;
+}
+
+.lg{
+    width: 100%;
+    height: 20rem;
+}
+
+.country{
+    width: 100%;
+    height: 16.750rem;
+    margin-right: 1rem;
+}
+
+.lg:not(:last-child){
+    margin-right: 1rem;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-layered{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-layered-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 3;
+    margin-right: 1rem;
+}
+
+
+.left-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    flex: 2;
+}
+
+.vert{
+
+    width: 12rem;
+    height: 16.750rem;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.vert:not(:last-child){
+    margin-right: 1rem;
+}
+
+.vert_header{
+
+    width: 100%;
+    height: 35%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.vert_body{
+    padding-top: .75rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.vert_body > h3{
+    font-weight: 300;
+    font-size: 1.75rem;
+}
+
+.vert_average{
+
+    margin: 1rem 0rem;
+    color: grey;
+
+}
+
+.vert_footer{
+    width: 100%;
+    flex: 1;
+    
+}
+
+.vert_body > p {
+    font-size: .75rem;
+}
+
+.vert_header_icon{
+    height: 100%;
+    width: 5.5rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mobile_views > .vert_header > .vert_header_icon{
+    border: 2px solid #EC407A;
+
+}
+
+.mobile_views > .vert_header > .vert_header_icon > .vert__icon{
+    color: #EC407A;
+}
+
+
+.daily_visit > .vert_header > .vert_header_icon{
+    border: 2px solid #5c6bc0;
+
+}
+
+.daily_visit > .vert_header > .vert_header_icon > .vert__icon{
+    color : #5c6bc0;
+}
+
+
+.vert__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(2);
+}
+
+
+.user__count{
+    background-color: #26A69A;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.forms{
+    background-color: #EC407A;
+    color: #fff;
+}
+
+.submissions{
+    background-color: #29B6F6;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.percentage{
+    
+    width: auto;
+    height: 1.2rem;
+    border-radius: 5px;
+    background-color: #3d3d3d;
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.20rem;
+}
+
+.percentage > p{
+    font-size: 0.65rem;
+}
+
+.percentage > span{
+    transform: scale(1.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4BB543;
+}
+
+
+
+.count{
+    display: block;
+    
+    font-size: 1.75rem;
+    font-weight: 300;
+    text-align: center;    
+}
+
+.count-tag{
+    flex: 1;
+    text-align: center;
+    margin-top: 0.7rem;
+}
+
+.count-tag > .count-avg{
+    font-size: 0.85rem;
+    color: grey;
+    
+}
+
+.count-avg-user{
+    font-size: 0.85rem;
+    color: white;
+}
+
+.count_small{
+    font-size: 1.35rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 0.6rem 0rem;
+}
+
+.total_paid{
+    display: flex;
+    flex-direction: column;
+}
+
+
+div[data-highcharts-chart="0"],div[data-highcharts-chart="1"],div[data-highcharts-chart="2"],div[data-highcharts-chart="3"]
+,div[data-highcharts-chart="4"],div[data-highcharts-chart="5"],div[data-highcharts-chart="6"],div[data-highcharts-chart="7"],
+div[data-highcharts-chart="8"],div[data-highcharts-chart="9"],div[data-highcharts-chart="10"]{
+    width: 100%;
+    height: 100%;
+}
+
+
+.highcharts-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100% !important;
+}
+
+/* Dark Theme for Highcharts */
+
+body.dark .highcharts-background{
+    fill:#223 !important;
+}
+body.dark .highcharts-title{
+    fill:#ccc !important;
+    font-weight: 300;
+}
+
+body.dark .highcharts-legend-item text {
+    fill: #ccc !important;
+    font-weight: 300;
+}
+
+body.dark .highcharts-legend-item:hover text {
+    fill: #fff !important;
+    font-weight: 400;
+}
+
+body.dark .highcharts-text-outline{
+    display: none;
+}
+
+body.dark .highcharts-label,body.dark .highcharts-data-label text{
+    fill: #fff !important;
+}
+
+body.dark .highcharts-axis text {
+    fill: #aaa !important;
+}
+
+body.dark .highcharts-axis-labels text {
+    fill: #ccc !important;
+}
+
+body.dark .highcharts-graph {
+    stroke-width: 1.5px;
+}
+
+body.dark .card.vert{
+    background-color: #223;
+}
+
+body.dark .user__count > .last_ten_days .highcharts-background{
+    fill: #26A69A !important;
+}
+
+body.dark .dynamic_bg,
+body.dark .card.lg, body.dark .card.country
+{
+    background-color: #223;
+
+}
+
+body.dark .count,body.dark .vert_info_count,body.dark .vert_info_name{
+    color: white;
+}
+
+body.dark .total_paid .card__header_head > h4{
+    color: white !important;
+}
+
+/* Responsive */
+
+@media screen and (max-width:767px){
+
+    .row-layered{
+        flex-direction: column;
+    }
+
+    .left{
+        margin-right:0rem;
+    }
+
+}
+
+
+@media screen and (max-width:575px){
+
+    .row{
+        flex-direction: column;
+    }
+
+    .left-inner{
+        flex-direction: column;
+    }
+
+    .sm:not(:last-child){
+        margin-right: 0;
+    }
+    
+}
+
+
